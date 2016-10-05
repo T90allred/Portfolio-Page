@@ -1,10 +1,14 @@
-.main{
-  background: url("background.jpeg") no-repeat center center fixed;
+body{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+.about-container{
+  background: url("background.jpeg") no-repeat center center fixed;
+  height: 90vh;
 }
 .darker{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("background.jpeg");
